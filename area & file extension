@@ -1,11 +1,8 @@
 # AREA OF CIRCLE
 
-r=12
+r=(input('enter radius'))
 area=3.14*(r*r)
-print('input the radius:')
-print(r)
-print('\n area of circle:')
-print(area)
+print("area of circle= %f" %area)
 
 #INPUT A FILE NAME AND PRINT THE EXTENSION
 
