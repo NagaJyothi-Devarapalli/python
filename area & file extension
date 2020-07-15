@@ -1,8 +1,11 @@
 # AREA OF CIRCLE
 
-r=(input('enter radius'))
-area=3.14*(r*r)
-print("area of circle= %f" %area)
+r = float(input ("enter a raduis :"))
+print ( "for a circle with" + str(r) +  "of raduis")
+pi=3.14
+A = (pi*r*r)
+print("The area is : %f" %A)
+
 
 #INPUT A FILE NAME AND PRINT THE EXTENSION
 
